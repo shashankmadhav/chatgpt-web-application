@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent {'Devops_agent'}
      environment {
                    key = credentials('openAI')
                 }
